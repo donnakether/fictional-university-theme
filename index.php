@@ -106,23 +106,3 @@
 
 <?php get_footer();?>
 
-<?php
-    function greet($name, $color) {
-        echo "<p>Hu, my name is $name and my favorite color is $color</p>";
-    }
-    greet('John', 'blue');
-    greet('Jane', 'green');
-?>
-
-<h1><?php bloginfo('name'); ?></h1>
-
-<?php
-    $names = array('x','y','z');
-
-    $count = 0;
-
-    while ($count < count($names)) {
-        echo "<li>My name is $names[$count]</li>";
-        $count++;
-    }
-?>
