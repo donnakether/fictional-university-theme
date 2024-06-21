@@ -22,8 +22,8 @@
           <div class="acf-map">
           <?php $mapLocation = get_field('map_location'); ?>
       
-            <div class="marker" data-lng="<?php echo $mapLocation['lat']?>" 
-                 data-lat="<?php echo $mapLocation['lng']?>">
+            <div class="marker" data-lng="<?php echo $mapLocation['lng']?>" 
+                 data-lat="<?php echo $mapLocation['lat']?>">
              <h3> <?php the_title(); ?></h3>
              <?php echo $mapLocation['address'];?>
             </div>
